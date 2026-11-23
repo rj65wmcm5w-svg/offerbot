@@ -10,12 +10,11 @@ from aiogram.types import (
     Message, CallbackQuery,
     InlineKeyboardMarkup, InlineKeyboardButton
 )
-from aiogram.filters import Command
 from aiogram.client.default import DefaultBotProperties
 from aiogram.enums import ParseMode
 
-BOT_TOKEN = "9083916633:AAFTgk7Dad-3iJeHvZCUXM-1cof7Yxzb4tw"
-BOT_USERNAME = "tondon_bot"
+BOT_TOKEN = "9250624922:AAG1rvc3wBqwYJqanz0UxyI6ZSW3b25LWqw"
+BOT_USERNAME = "of33r_bot"
 
 bot = Bot(token=BOT_TOKEN, default=DefaultBotProperties(parse_mode=ParseMode.HTML))
 dp = Dispatcher()
